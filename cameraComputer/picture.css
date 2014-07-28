@@ -1,0 +1,46 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image:-webkit-radial-gradient(white, gray);
+    background-image:-o-radial-gradient(white, gray);
+    background-image:-moz-radial-gradient(white, gray);
+    background-image:radial-gradient(white, gray); 
+    background-size:100%; 
+    background-repeat: no-repeat;
+}
+
+.info {
+	 
+}
+
+.text {
+	position:relative;
+	font-size: 40px;
+	font-family: franklinGothic;
+	top: 80%;
+	left: 5%;
+	background-color: rgba(220,220,220,.45);
+	border-radius: 10px;
+	height:60px;
+	line-height: 67px;
+	text-align: center;
+	width: 440px;
+}
+
+.textWithBackground {
+	width: 220px;
+}
+
+.noTextBackground {
+	width: 0px;
+}
+
+@font-face {
+   font-family: franklinGothic;
+   src: url(FranklinGothicExtraCondensed.ttf);
+}
