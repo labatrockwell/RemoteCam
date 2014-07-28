@@ -24,6 +24,8 @@ tar -xvzf node-v0.10.2-linux-arm-pi.tar.gz`
  * `NODE_JS_HOME=/home/pi/node-v0.10.2-linux-arm-pi`
  * `PATH=$PATH:$NODE_JS_HOME/bin`
 
-Express.js
+
+####Express.js
+* `sudo npm install -g express`
 
 ![alt tag](http://ngng.gotovac.org/wp-content/uploads/2014/04/Raspberry-Pi-GPIO-Layout-Revision-2-e1347664831557.png)
