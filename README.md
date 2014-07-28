@@ -9,6 +9,8 @@ There are two folders, one contains files that go on the computer that has the c
 ## Camera Computer
 Currently the camera computer is implemented on a Raspberry PI. A server on this computer listens for a button press from a button attached to the PI's GPIO, or for a mouse click from a webpage that is served by this server.
 
+- - - -
+
 ### Dependencies
 (instructions given for Raspberry Pi)
 #### Node.js
