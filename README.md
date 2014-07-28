@@ -63,6 +63,14 @@ Comment out the appropriate line in _takePictureLoadtoServer_
 or run with forever:
 * `forever start takePhoto.js`
 
+#### Timelapse
+Instead of starting the server run this python script for a timelapse. Right now it defaults to taking a picture every 60 seconds. You can change that in the python script.
+* `py timelapse.py`
+ 
+#### Button attached to Raspberry PI GPIO
+The GPIO is set to the marking in the rectangles below. Attach the button to any 3V then going to pin GPIO25 with a 10k ohm pull down resistor going from there to any ground.
+
+
 
 
 ![alt tag](http://ngng.gotovac.org/wp-content/uploads/2014/04/Raspberry-Pi-GPIO-Layout-Revision-2-e1347664831557.png)
