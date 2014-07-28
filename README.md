@@ -34,10 +34,12 @@ tar -xvzf node-v0.10.2-linux-arm-pi.tar.gz`
 #### OnOff (GPIO pin access in node)
 * `npm install onoff`
 
-#### GPhoto2
+#### GPhoto2 (slr camera)
 * `sudo apt-get install gphoto2`
 
-#### FSWebcam
+#### FSWebcam (webcam)
 * `sudo apt-get install fswebcam`
+ 
+### Set IP Address
 
 ![alt tag](http://ngng.gotovac.org/wp-content/uploads/2014/04/Raspberry-Pi-GPIO-Layout-Revision-2-e1347664831557.png)
