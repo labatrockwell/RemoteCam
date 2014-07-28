@@ -25,7 +25,14 @@ tar -xvzf node-v0.10.2-linux-arm-pi.tar.gz`
  * `PATH=$PATH:$NODE_JS_HOME/bin`
 
 
-####Express.js
+#### Express.js
 * `sudo npm install -g express`
+
+#### Socket IO
+* `npm install socket.io`
+
+#### onoff (GPIO pin access in node)
+* `npm install onoff`
+
 
 ![alt tag](http://ngng.gotovac.org/wp-content/uploads/2014/04/Raspberry-Pi-GPIO-Layout-Revision-2-e1347664831557.png)
