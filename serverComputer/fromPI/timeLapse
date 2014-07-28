@@ -1,0 +1,19 @@
+#!/bin/bash
+
+_now=$(date +"%m_%d_%Y")
+mkdir timeLapse_$_now
+
+a=1
+
+for i in *.jpg
+ do new=$(printf "%05d.jpg" ${a})
+ cp ${i} timeLapse_$_now/${new}
+ let a=a+1
+done
+
+cd timeLapse_$_now/
+ffmpeg -f image2 -i %05d.jpg -s hd1080 -vcodec libx264 timeLapse_$_now.mp4
+
+for i in *.jpg
+ do rm ${i}
+done
