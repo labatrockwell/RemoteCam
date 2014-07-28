@@ -59,7 +59,7 @@ Comment out the appropriate line in _takePictureLoadtoServer_
 
 #### Start Camera Server
 * `node takePhoto.js`
-* 
+
 or run with forever:
 * `forever start takePhoto.js`
 
