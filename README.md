@@ -12,7 +12,8 @@ Currently the camera computer is implemented on a Raspberry PI. A server on this
 ### Dependencies
 (instructions given for Raspberry Pi)
 #### Node.js
-
+*sudo apt-get upgrade; 
+sudo apt-get update
 Express.js
 
 ![alt tag](http://ngng.gotovac.org/wp-content/uploads/2014/04/Raspberry-Pi-GPIO-Layout-Revision-2-e1347664831557.png)
