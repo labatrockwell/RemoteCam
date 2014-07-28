@@ -12,16 +12,17 @@ Currently the camera computer is implemented on a Raspberry PI. A server on this
 ### Dependencies
 (instructions given for Raspberry Pi)
 #### Node.js
-* first update the PI
-
-`sudo apt-get upgrade`
-
-`sudo apt-get update`
+* update the PI
+ * `sudo apt-get upgrade`
+ * `sudo apt-get update`
 
 * download node
-`wget http://nodejs.org/dist/v0.10.2/node-v0.10.2-linux-arm-pi.tar.gz
+ * `wget http://nodejs.org/dist/v0.10.2/node-v0.10.2-linux-arm-pi.tar.gz
 tar -xvzf node-v0.10.2-linux-arm-pi.tar.gz`
 
+* paste these paths at the end of _.bashrc_ located in the home directory
+ * `NODE_JS_HOME=/home/pi/node-v0.10.2-linux-arm-pi`
+ * `PATH=$PATH:$NODE_JS_HOME/bin`
 
 Express.js
 
