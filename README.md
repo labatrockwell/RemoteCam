@@ -13,7 +13,9 @@ Currently the camera computer is implemented on a Raspberry PI. A server on this
 (instructions given for Raspberry Pi)
 #### Node.js
 first update the PI
-* sudo apt-get upgrade; 
+
+
+* `sudo apt-get upgrade;`
 * sudo apt-get update
 Express.js
 
