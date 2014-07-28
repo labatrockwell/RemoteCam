@@ -57,5 +57,12 @@ Ip address of the other computer that will act as the server needs to be set her
 #### Choose webcam or DSLR
 Comment out the appropriate line in _takePictureLoadtoServer_
 
+#### Start Camera Server
+* `node takePhoto.js`
+* 
+or run with forever:
+* `forever start takePhoto.js`
+
+
 
 ![alt tag](http://ngng.gotovac.org/wp-content/uploads/2014/04/Raspberry-Pi-GPIO-Layout-Revision-2-e1347664831557.png)
