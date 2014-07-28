@@ -42,8 +42,11 @@ tar -xvzf node-v0.10.2-linux-arm-pi.tar.gz`
 
 #### FSWebcam (webcam)
 * `sudo apt-get install fswebcam`
+
+
+
  
-### Instructions
+### Usage
 
 #### Set IP Address
 Ip address of the other computer that will act as the server needs to be set here in two places, once in both of these:
