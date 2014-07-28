@@ -43,8 +43,7 @@ tar -xvzf node-v0.10.2-linux-arm-pi.tar.gz`
 #### FSWebcam (webcam)
 * `sudo apt-get install fswebcam`
 
-
-
+- - - -
  
 ### Usage
 
