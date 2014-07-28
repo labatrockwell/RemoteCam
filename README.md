@@ -68,7 +68,7 @@ Instead of starting the server run this python script for a timelapse. Right now
 * `py timelapse.py`
  
 #### Button attached to Raspberry PI GPIO
-The GPIO is set to the marking in the rectangles below. Attach the button to any 3V then going to pin GPIO25 with a 10k ohm pull down resistor going from there to any ground.
+The GPIO is set to the markings in the rectangles below, not the circles. Attach power from any 3V to the button, then take from the button to pin GPIO25 with a 10k ohm pull down resistor going from there to any ground.
 
 
 
