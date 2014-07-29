@@ -12,7 +12,7 @@ Currently the camera computer is implemented on a Raspberry PI. A server on this
 - - - -
 
 ### Installation
-Place all the items in the 
+Place the _cameraComputer_ folder on the computer the camera will be attached to. Install all of the dependencies below.
 
 - - - -
 
@@ -23,7 +23,7 @@ Place all the items in the
  * `sudo apt-get upgrade`
  * `sudo apt-get update`
 
-* download node
+* download node (this version specifically for Raspberry PI)
  * `wget http://nodejs.org/dist/v0.10.2/node-v0.10.2-linux-arm-pi.tar.gz
 tar -xvzf node-v0.10.2-linux-arm-pi.tar.gz`
 
