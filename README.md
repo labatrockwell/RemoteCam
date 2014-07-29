@@ -112,7 +112,7 @@ Place the _serverComputer_ folder on the computer to beused as the server. Insta
 #### Start Servers
 Navigate to serverComputer folder and on command line type `./startPictureServers`
 
-#### Assemble Timelapse video
+#### Assemble Timelapse Video
 To assemble all the still images into a timelapse video go to the _fromPI_ folder and on the command line type `./timeLapse`. Note that this will take all of the images in that folder in combine them into a video.
 
 
