@@ -95,3 +95,14 @@ Place the _serverComputer_ folder on the computer to beused as the server. Insta
 #### Node.js
 * `http://nodejs.org/`
 
+#### Forever
+* `[sudo] npm install forever -g`
+
+#### FFMPEG
+* Install Hombrew
+ * `ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"`
+ * `brew doctor`
+* Install FFMPEG
+ * `brew install ffmpeg --with-fdk-aac --with-ffplay --with-freetype --with-frei0r --with-libass --with-libvo-aacenc --with-libvorbis --with-libvpx --with-opencore-amr --with-openjpeg --with-opus --with-rtmpdump --with-schroedinger --with-speex --with-theora --with-tools` 
+
+
