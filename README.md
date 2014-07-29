@@ -86,7 +86,7 @@ The server computer actually runs two servers, one that receives uploads from th
 ----
 
 ### Installation
-Place the _serverComputer_ folder on the computer to beused as the server. Install all of the dependencies below.
+Place the _serverComputer_ folder on the computer to be used as the server. Install all of the dependencies below.
 
 ----
 
