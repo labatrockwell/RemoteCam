@@ -105,4 +105,11 @@ Place the _serverComputer_ folder on the computer to beused as the server. Insta
 * Install FFMPEG
  * `brew install ffmpeg --with-fdk-aac --with-ffplay --with-freetype --with-frei0r --with-libass --with-libvo-aacenc --with-libvorbis --with-libvpx --with-opencore-amr --with-openjpeg --with-opus --with-rtmpdump --with-schroedinger --with-speex --with-theora --with-tools` 
 
+----
+
+### Usage
+
+#### Start Servers
+Navigate to serverComputer folder and on command line type `./startPictureServers`
+
 
