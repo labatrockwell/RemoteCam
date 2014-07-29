@@ -92,3 +92,6 @@ Place the _serverComputer_ folder on the computer to beused as the server. Insta
 
 ### Dependencies
 
+#### Node.js
+* `http://nodejs.org/`
+
