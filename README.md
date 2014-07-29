@@ -78,3 +78,16 @@ The GPIO is set to the markings in the rectangles below, not the circles. Attach
 ![alt tag](http://ngng.gotovac.org/wp-content/uploads/2014/04/Raspberry-Pi-GPIO-Layout-Revision-2-e1347664831557.png)
 
 ----
+
+## Server Computer
+The server computer actually runs two servers, one that receives uploads from the camera computer, and another that serves images requested from a webpage.
+
+----
+
+### Installation
+Place the _serverComputer_ folder on the computer to beused as the server. Install all of the dependencies below.
+
+----
+
+### Dependencies
+
