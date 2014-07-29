@@ -75,7 +75,6 @@ Instead of starting the server run this python script for a timelapse. Right now
 #### Button attached to Raspberry PI GPIO
 The GPIO is set to the markings in the rectangles below, not the circles. Attach power from any 3V to the button, then take from the button to pin GPIO25 with a 10k ohm pull down resistor going from there to any ground.
 
-
-
-
 ![alt tag](http://ngng.gotovac.org/wp-content/uploads/2014/04/Raspberry-Pi-GPIO-Layout-Revision-2-e1347664831557.png)
+
+----
