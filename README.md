@@ -11,6 +11,11 @@ Currently the camera computer is implemented on a Raspberry PI. A server on this
 
 - - - -
 
+### Installation
+Place all the items in the 
+
+- - - -
+
 ### Dependencies
 (instructions given for Raspberry Pi)
 #### Node.js
