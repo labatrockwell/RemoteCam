@@ -1,3 +1,5 @@
+#!/bin/bash
+
 forever start loadServer.js
 cd fromPI
 forever start http-server/bin/http-server
