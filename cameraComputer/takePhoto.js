@@ -8,6 +8,7 @@ var Gpio = require('onoff').Gpio,
 var prev_input = 0;
 var urlToGetPic="";
 var globalSocket = [];
+var timeOutHandle;
 
 //this function takes the photo, and sends the url of the photo location through the websocket
 function changePhoto() {
@@ -24,7 +25,7 @@ function changePhoto() {
       contents = output.toString();
 
       //append it to the static file server url:
-      urlToGetPic="http://10.1.2.243:4080/"+contents;
+      urlToGetPic="http://10.1.2.216​:4080/"+contents;
 
       //slice off the new line at the end:
       urlToGetPic=urlToGetPic.slice(0, - 1);
@@ -34,6 +35,16 @@ function changePhoto() {
         for (i=0; i<globalSocket.length; i++)
           globalSocket[i].emit('photo', urlToGetPic);
       }
+
+      //set timeout to refresh page if no one uses for
+      clearTimeout(timeOutHandle);
+      timeOutHandle=setTimeout(function() {
+        if (globalSocket.length > 0) {
+          for (i=0; i<globalSocket.length; i++)
+            globalSocket[i].emit('resetPage', 0);
+        }
+        console.log("reset it");
+      },120000);
     } 
   });
 }
@@ -42,6 +53,10 @@ function changePhoto() {
 button.watch(function(err, value) {
   if (value && prev_input!=value){
     console.log("button pressed");
+    if (globalSocket.length > 0) {
+        for (i=0; i<globalSocket.length; i++)
+          globalSocket[i].emit('takingPhotoText', 0);
+      }
     changePhoto();
   }
   prev_input=value;

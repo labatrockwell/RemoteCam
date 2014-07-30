@@ -15,6 +15,10 @@ socket.on('takingPhotoText', function (data) {
     divElement.classList.add("textWithBackground");
 });
 
+socket.on('resetPage', function (data) {
+    location.reload();
+});
+
 function getPhoto()
   {
     socket.emit('send', null);
