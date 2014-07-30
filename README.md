@@ -104,6 +104,9 @@ Place the _serverComputer_ folder on the computer to be used as the server. Inst
  * `brew doctor`
 * Install FFMPEG
  * `brew install ffmpeg --with-fdk-aac --with-ffplay --with-freetype --with-frei0r --with-libass --with-libvo-aacenc --with-libvorbis --with-libvpx --with-opencore-amr --with-openjpeg --with-opus --with-rtmpdump --with-schroedinger --with-speex --with-theora --with-tools` 
+ 
+_Note - To install FFMPEG the command line tools need to be installed on the computer._ 
+ 
 
 ----
 
