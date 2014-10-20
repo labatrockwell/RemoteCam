@@ -25,7 +25,7 @@ function changePhoto() {
       contents = output.toString();
 
       //append it to the static file server url:
-      urlToGetPic="http://10.1.2.216​:4080/"+contents;
+      urlToGetPic="http://10.1.2.117:4080/"+contents;
 
       //slice off the new line at the end:
       urlToGetPic=urlToGetPic.slice(0, - 1);

@@ -11,7 +11,7 @@
 fswebcam --no-banner -d /dev/video0 -r 960x720 photoName 
 
 # uploads the file and gets the saved file's name
-getphoto=$(curl --upload-file photoName http://10.1.2.243:8080/)
+getphoto=$(curl --upload-file photoName http://10.1.2.117:8080/)
 
 # deletes photo from pi
 rm photoName
